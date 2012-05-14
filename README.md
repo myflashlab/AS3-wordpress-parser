@@ -30,10 +30,6 @@ _wp.search("title");
 //_wp.submitComment("Ali", "info@company.com", "my message!", 1);
 
 
-
-
-
-
 // after we have called _wp.getRecentPosts() and our recent posts are loaded, this function will be triggered
 private function onRecentPosts(e:WpEvent):void
 {
