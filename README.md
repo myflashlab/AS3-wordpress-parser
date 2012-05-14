@@ -3,7 +3,7 @@ AS3-wordpress-parser
 
 Our wordpress parser classes are just some abstarct codes to control the pure wordpress data such as your posts, comments, etc... and treat these data in any way that 
 you like inside your AS3 projects; for example you can use it to create a Wordpress mobile application for your client or creating a wprdpress flash plugin or anything 
-else related to wordpress and you need something easy and handy to provide you the needed information that you need :) 
+else related to wordpress and you need something easy and handy to provide you the needed information that you need :)
 
 <h1>Usage:</h1>
 
@@ -12,7 +12,7 @@ import com.doitflash.remote.wp.WordPressParser;
 import com.doitflash.remote.wp.Sql;
 import com.doitflash.events.WpEvent;
 
-var _wp:WordPressParser = new WordPressParser("http://localhost/wordpress/", 2); // arguments: address of my WP blog, always load 2 posts
+var _wp:WordPressParser = new WordPressParser("http://localhost/wordpress/", 2); // arguments: address of my WP blog, load 2 posts on each request
 
 _wp.addEventListener(WpEvent.RECENT_POSTS, onRecentPosts);
 _wp.addEventListener(WpEvent.POST_CONTENT, onPostContent);
