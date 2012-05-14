@@ -3,8 +3,8 @@ package com.doitflash.events
 	import flash.events.Event;
 	
 	/**
-	 * Twitter application events
-	 * @author Hadi Tavakoli - 5/29/2010 11:35 AM
+	 * Wordpress Parser Events
+	 * @author Hadi Tavakoli - 5/14/2012 8:58 AM
 	 */
 	public class WpEvent extends Event
 	{
