@@ -30,10 +30,6 @@ _wp.search("title");
 //_wp.submitComment("Ali", "info@company.com", "my message!", 1);
 
 
-
-
-
-
 // after we have called _wp.getRecentPosts() and our recent posts are loaded, this function will be triggered
 private function onRecentPosts(e:WpEvent):void
 {
@@ -41,7 +37,7 @@ private function onRecentPosts(e:WpEvent):void
 	trace(_wp.posts.loadedPosts.length); // get the loaded posts number
 	
 	// e.param.length is 2 right now, as we have set to load 2 recent posts each time we call _wp.getRecentPosts(), when we were initializing our class
-	for (var i:int = 0; i < e.param.length; i++) 
+	for (var i:int = 0; i &lt; e.param.length; i++) 
 	{
 		var post:Object = e.param[i];
 		
@@ -67,7 +63,7 @@ private function onSearchResult(e:WpEvent):void
 	
 	// e.param.length is 2 right now, as we have set 2 as the value of the second argument of our class when we were initializing it
 	// so it gives us 2 posts which contain the word "title"; so if we like to see more results, we call _wp.search(null), to search the last word we have searched once again and give us the rest of the results
-	for (var i:int = 0; i < e.param.length; i++) 
+	for (var i:int = 0; i &lt; e.param.length; i++) 
 	{
 		var post:Object = e.param[i];
 		trace("post.id = " + post.id)
