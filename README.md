@@ -7,6 +7,8 @@ else related to wordpress... so you need something easy and handy to provide you
 
 before using this class, you need to install http://wordpress.org/extend/plugins/json-api/ plugin on your wordpress.
 
+<h3>Preview:</h3> http://myappsnippet.com/?p=27
+
 <h1>Usage:</h1>
 
 <pre>
