@@ -3,7 +3,7 @@ AS3-wordpress-parser
 
 Our wordpress parser classes are just some abstarct codes to control the pure wordpress data such as your posts, comments, etc... and treat these data in any way that 
 you like inside your AS3 projects; for example you can use it to create a Wordpress mobile application for your client or creating a wprdpress flash plugin or anything 
-else related to wordpress and you need something easy and handy to provide you the needed information that you need :) 
+else related to wordpress and you need something easy and handy to provide you the needed information that you need :)
 
 <h1>Usage:</h1>
 
