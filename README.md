@@ -5,6 +5,8 @@ Our wordpress parser classes are just some abstarct codes to control the pure wo
 you like inside your AS3 projects; for example you can use it to create a Wordpress mobile application for your client or creating a wprdpress flash plugin or anything 
 else related to wordpress... so you need something easy and handy to provide you the needed information :)
 
+before using this class, you need to install http://wordpress.org/extend/plugins/json-api/ plugin on your wordpress.
+
 <h1>Usage:</h1>
 
 <pre>
