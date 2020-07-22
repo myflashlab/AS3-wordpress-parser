@@ -27,3 +27,4 @@ jobs:
       run: |
         ls
         java -version
+        mkdir "TerminalTest"
