@@ -24,5 +24,6 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: My Tests
-      run: ls
-      run: java -version
+      run: |
+        ls
+        java -version
